@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 80%;
+}
+.heading {
+  color: #616e7c;
+}
+.fail-msg {
+  color: #dcdcdc;
+}
