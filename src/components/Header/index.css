@@ -1,1 +1,42 @@
 /* Write your CSS here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.hamburger-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.popup-content {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.hamburger {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+.close {
+  align-self: flex-end;
+  cursor: pointer;
+}
+.icon-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.popup {
+  padding-left: 10px;
+}
